@@ -22,10 +22,7 @@ export default function App() {
       "deg": 0
     },"name": "Delhi"});
   const [city,setCity]=useState("delhi");
-  //get the weather json data using useEffect
-  //get the city by user
-  //set the state weather to given city
-  //pass the given data into props to card
+  
   
   useEffect(()=>{
     const featchWeather=async()=>{
